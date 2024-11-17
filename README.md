@@ -1,14 +1,25 @@
-# Design-Implementation-of-6T---SRAM-Cell-using-Cadence-EDA-Tools
-Ex No: 01     Design & Implementation of 6T SRAM using Cadence EDA Tools   
+## Ex No: 04 Design-Implementation-of-6T---SRAM-Cell-using-Cadence-EDA-Tools
 
-Aim:
+
+## Aim:
+
 To design and implement a 6T SRAM (Static Random-Access Memory) cell using Cadence EDA tools, simulate its functionality, and analyze key performance parameters such as read/write operations, power consumption, and stability to understand its behavior in memory design.
 
-Tools Required:
+## Tools Required:
+
 •	Personal Computer
+
 •	Cadence Virtuoso Software
 
-S C H E M A T I C S I M U L A T I O N - PROCEDURE FOR CREATING THE SCHEMATIC SIMULATION -Commands to get into Cadence
+
+## Circuit Daigram:
+
+![IMG-20241115-WA0004](https://github.com/user-attachments/assets/86635ce5-4ffc-484d-aa49-7a2d5ad428bf)
+
+
+## SCHEMATIC SIMULATION:
+
+PROCEDURE FOR CREATING THE SCHEMATIC SIMULATION -Commands to get into Cadence
 
 1.	Right Click and open the terminal window
 2.	Type the following commands as follows and press enter.
@@ -53,6 +64,7 @@ ii)	Create Schematic Cell view.
 
 
  
+
 iii)	Creating the Symbol for schematic Cell view
 
 •	In the schematic window, execute 
@@ -67,7 +79,7 @@ iii)	Creating the Symbol for schematic Cell view
 •	Check for the position of pin side.Prss OK
 •	Edit for the shape by Create-Shape-Choose required options to edit.
 
-Analog simulation by SPECTRE.
+## Analog simulation by SPECTRE.
 •	In test cell view window
 •	Launch – ADE L(Analog Design Environment)
 	Execute Setup—Simulation/directory/Host A new window opens
@@ -81,16 +93,19 @@ Analog simulation by SPECTRE.
 
 
 
-For Transient Analysis Settings and Output
+
+## For Transient Analysis Settings and Output
+
 
 ![Screenshot 2024-11-11 104949](https://github.com/user-attachments/assets/717f94f5-37cb-4912-a83e-ed821f541bea)
 
-
+## Output:
 ![Screenshot 2024-11-11 104728](https://github.com/user-attachments/assets/a4837f83-528b-4507-8c51-07db260d4aa8)
 
 
 
-Results:
+## Results:
+
 The design and implementation of the 6T SRAM cell using Cadence EDA tools were successfully achieved. Simulation results validated the correct functionality and performance of the SRAM cell, including stable read/write operations,
 
 
